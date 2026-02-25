@@ -1,0 +1,28 @@
+<body>
+
+    <!-- Contenedor principal -->
+    <div id="app">
+
+        <!-- Recuadro donde se mostrará la cámara -->
+        <div id="cameraContainer">
+            <!-- camera-preview se dibuja detrás de este div -->
+        </div>
+
+        <!-- Botón para tomar la foto -->
+        <button id="btnTake" class="btn">Take</button>
+
+        <!-- Diálogo de confirmación -->
+        <div id="dialog" class="dialog-hidden">
+            <div class="dialog-content">
+                <img id="previewImage" />
+
+                <div class="dialog-buttons">
+                    <button id="btnSave" class="btn btn-green">Guardar</button>
+                    <button id="btnCancel" class="btn btn-red">Repetir</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
